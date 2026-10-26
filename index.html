@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Jared Kristian M. Gatdula - BS Information Technology student at Manila Central University showcasing academic background, technical skills, projects, and certificates.">
+  <meta name="author" content="Jared Kristian M. Gatdula">
+  <title>Jared Kristian Gatdula | Portfolio</title>
+
+  <!-- Google Fonts: Inter & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- =========================================================================
+       Navigation Bar
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Jared Gatdula Homepage">
+        <span class="nav-logo-badge">JG</span>
+        <span>Jared Gatdula</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certifications</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Theme Switcher & Mobile Menu Toggle -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle theme mode"
+          title="Toggle dark/light theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <button class="nav-toggle-btn" id="nav-toggle" aria-label="Toggle mobile navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Main Content
+       ========================================================================= -->
+  <main id="main-content">
+
+    <!-- 1. Hero / Home Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <div class="hero-content">
+            <div class="hero-status">
+              <span class="status-dot"></span>
+              <span id="dynamic-greeting">Welcome to my portfolio</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <br>
+              <span class="highlight">Jared Kristian Gatdula</span>
+            </h1>
+
+            <p class="hero-role">&lt;BS Information Technology Student /&gt;</p>
+
+            <p class="hero-description">
+              Currently studying Information Technology at <strong>Manila Central University</strong>.
+              Interested in back-end logic, database systems, and application programming.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fa-solid fa-code"></i> View Projects
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i class="fa-solid fa-paper-plane"></i> Contact Me
+              </a>
+            </div>
+
+            <div class="hero-socials">
+              <span>Connect:</span>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link"
+                aria-label="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="mailto:jaredgatdula@gmail.com" class="social-link" aria-label="Send Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="profile-card">
+              <div class="profile-img-wrap">
+                <img src="Me.jpg" alt="Profile photo of Jared Kristian Gatdula" width="360" height="450"
+                  loading="eager">
+              </div>
+
+              <div class="hero-chip hero-chip-top">
+                <i class="fa-solid fa-graduation-cap" style="color: var(--primary);"></i>
+                <span>BSIT @ MCU</span>
+              </div>
+              <div class="hero-chip hero-chip-bottom">
+                <i class="fa-solid fa-location-dot" style="color: var(--secondary);"></i>
+                <span>Caloocan, PH</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Academic Highlights Banner -->
+        <div class="stats-bar">
+          <div class="stat-item">
+            <div class="stat-number">3rd</div>
+            <div class="stat-label">Year BSIT Student</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">MCU</div>
+            <div class="stat-label">Manila Central University</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5</div>
+            <div class="stat-label">Verified Certifications</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-regular fa-user"></i> Background</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">My educational background, personal journey, and career goals.</p>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Narrative Bio Card -->
+          <div class="about-card about-bio">
+            <h3 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-main);">
+              Personal Profile & Background
+            </h3>
+            <p>
+              My name is <strong>Jared Kristian M. Gatdula</strong>, born on October 12, 2004 in Caloocan City. I am
+              currently in college taking up a <strong>Bachelor of Science in Information Technology (BSIT)</strong> at
+              <strong>Manila Central University</strong>.
+            </p>
+            <p>
+              Growing up, I tended to be introverted and go with the flow, adapting to different environments and
+              schools. While I didn't initially have a strong focus on programming, I found myself genuinely enjoying
+              coding when helping my classmates during lab sessions and troubleshooting code they found confusing.
+            </p>
+            <p>
+              Because I don't lean towards visual and UI design, I prefer focusing on <strong>functional logic</strong>,
+              <strong>back-end scripting</strong>, and <strong>database management</strong> where structured
+              problem-solving takes center stage.
+            </p>
+
+            <div class="personal-highlights">
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Logical Focus</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Enjoys problem-solving, algorithms, and data
+                    logic.</div>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Peer Assistance</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Enjoys helping classmates debug and
+                    understand coding.</div>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Patience in Debugging</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Methodical and persistent when resolving
+                    errors.</div>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <div>
+                  <strong>Adaptable Learner</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Quick to adapt to new subjects, tools, and
+                    environments.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Tabs: Education & Career Goals -->
+          <div class="tabs-container">
+            <div class="tab-nav" role="tablist">
+              <button class="tab-btn active" data-tab="tab-education" role="tab" aria-selected="true"
+                aria-controls="tab-education">
+                <i class="fa-solid fa-graduation-cap"></i> Education
+              </button>
+              <button class="tab-btn" data-tab="tab-goals" role="tab" aria-selected="false" aria-controls="tab-goals">
+                <i class="fa-solid fa-bullseye"></i> Career Goals
+              </button>
+            </div>
+
+            <!-- Tab 1: Education Timeline -->
+            <div class="tab-pane active" id="tab-education" role="tabpanel">
+              <div class="about-card">
+                <div class="timeline">
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">2023 - PRESENT (COLLEGE)</div>
+                    <h4 class="timeline-institution">Manila Central University (MCU)</h4>
+                    <div class="timeline-degree">Bachelor of Science in Information Technology (BSIT)</div>
+                    <p class="timeline-desc">Caloocan City. Coursework includes Web Systems & Technologies, Database
+                      Management, and Object-Oriented Programming.</p>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">2021 - 2023 (SENIOR HIGH SCHOOL)</div>
+                    <h4 class="timeline-institution">University of the East - Caloocan</h4>
+                    <div class="timeline-degree">Senior High School</div>
+                    <p class="timeline-desc">Samson Road, Caloocan City. Developed foundational knowledge in
+                      mathematics, logic, and introductory computing.</p>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">2017 - 2021 (JUNIOR HIGH SCHOOL)</div>
+                    <h4 class="timeline-institution">Kids Choice Montessori Academy Inc.</h4>
+                    <div class="timeline-degree">Junior High School</div>
+                    <p class="timeline-desc">Aguinaldo St., Malacañang Village, Parañaque City.</p>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-year">PRIMARY EDUCATION</div>
+                    <h4 class="timeline-institution">Elementary Education</h4>
+                    <div class="timeline-degree">Primary Schooling</div>
+                    <p class="timeline-desc">Attended Kids Choice Montessori, Holy Triune God Learning School (Tarlac),
+                      and Immaculate Heart of Mary College.</p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 2: Career Goals -->
+            <div class="tab-pane" id="tab-goals" role="tabpanel">
+              <div class="goals-list">
+
+                <div class="goal-card">
+                  <div class="goal-icon">
+                    <i class="fa-solid fa-server"></i>
+                  </div>
+                  <div class="goal-text">
+                    <h4>Back-End & Core Logic Development</h4>
+                    <p>Focusing on server-side scripting, API logic, and data processing rather than visual or user
+                      interface design.</p>
+                  </div>
+                </div>
+
+                <div class="goal-card">
+                  <div class="goal-icon">
+                    <i class="fa-solid fa-database"></i>
+                  </div>
+                  <div class="goal-text">
+                    <h4>Database Management & SQL Systems</h4>
+                    <p>Building strong skills in relational database schemas, query optimization, data normalization,
+                      and ensuring reliable data storage.</p>
+                  </div>
+                </div>
+
+                <div class="goal-card">
+                  <div class="goal-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                  </div>
+                  <div class="goal-text">
+                    <h4>Systems Administration & Technical Support</h4>
+                    <p>Exploring practical system configurations, software environments, and practical IT
+                      troubleshooting support.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Technical Skills Section -->
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-solid fa-laptop-code"></i> Competencies</span>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Programming languages, tools, and technical areas covered in my IT coursework.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Front-End Basics -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3>Front-End Fundamentals</h3>
+            </div>
+            <div class="skill-badge-cloud">
+              <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML5 (Semantic Structure)</span>
+              <span class="skill-badge"><i class="fa-brands fa-css3-alt"></i> CSS3 (Styling & Layouts)</span>
+              <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript (DOM & Logic)</span>
+              <span class="skill-badge"><i class="fa-solid fa-mobile-screen"></i> Responsive Web Layouts</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Backend & Databases -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h3>Back-End & Databases</h3>
+            </div>
+            <div class="skill-badge-cloud">
+              <span class="skill-badge"><i class="fa-brands fa-php"></i> PHP Scripting</span>
+              <span class="skill-badge"><i class="fa-brands fa-java"></i> Java (OOP Concepts)</span>
+              <span class="skill-badge"><i class="fa-solid fa-database"></i> MySQL / MariaDB</span>
+              <span class="skill-badge"><i class="fa-solid fa-table"></i> Relational Database Tables</span>
+              <span class="skill-badge"><i class="fa-solid fa-file-code"></i> SQL Queries & CRUD</span>
+              <span class="skill-badge"><i class="fa-solid fa-clock"></i> Server Cron Jobs</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Environment -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon">
+                <i class="fa-solid fa-terminal"></i>
+              </div>
+              <h3>Development Tools</h3>
+            </div>
+            <div class="skill-badge-cloud">
+              <span class="skill-badge"><i class="fa-solid fa-code"></i> Visual Studio Code</span>
+              <span class="skill-badge"><i class="fa-brands fa-git-alt"></i> Git Version Control</span>
+              <span class="skill-badge"><i class="fa-brands fa-github"></i> GitHub Repositories</span>
+              <span class="skill-badge"><i class="fa-solid fa-server"></i> Hostinger & cPanel</span>
+              <span class="skill-badge"><i class="fa-solid fa-bug"></i> Browser Developer Tools</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects & Activities Section -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-solid fa-cubes"></i> Practical Works</span>
+          <h2 class="section-title">Projects & Activities</h2>
+          <p class="section-subtitle">Authentic academic projects and system case studies developed during my IT
+            studies.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- Project 1: Kape Timplados POS & Inventory System -->
+          <article class="project-card">
+            <div class="project-preview-img-wrap" style="background: #ffffff;">
+              <img src="kape_logo.png" alt="Kape Timplados Logo" loading="lazy">
+              <span class="project-type-tag">Web System & Database</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Kape Timplados: POS & Inventory System</h3>
+              <p class="project-description">
+                A multi-branch Point of Sale (POS) and inventory management web system built for a dual-location coffee
+                shop. Features per-branch stock isolation, recipe ingredient tracking, product variants with add-ons,
+                cashier order workflows, and automated Hostinger cron task routines.
+              </p>
+
+              <ul class="project-features">
+                <li>Multi-branch stock isolation (Main Branch vs. Branch 2)</li>
+                <li>Complex relational schema for variants, sizes, and recipe ingredients</li>
+                <li>Cashier checkout terminal with dynamic cart and void workflows</li>
+                <li>Automated PHP database migrations and scheduled server cron routines</li>
+              </ul>
+
+              <div class="project-tech">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Database Migrations</span>
+                <span class="tech-tag">Hostinger Cron</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary" data-modal-target="project-kape">
+                  <i class="fa-solid fa-circle-info"></i> View System Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Pharmacy Inventory Management System -->
+          <article class="project-card">
+            <div class="project-preview-img-wrap" style="background: #111a2e;">
+              <div style="text-align: center; color: var(--primary);">
+                <i class="fa-solid fa-notes-medical"
+                  style="font-size: 3.5rem; margin-bottom: 0.5rem; display: block;"></i>
+                <span style="font-weight: 700; font-size: 1rem; color: #fff; font-family: var(--font-mono);">Pharmacy
+                  GUI System</span>
+              </div>
+              <span class="project-type-tag">Java OOP Application</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Multi-Location Pharmacy Inventory System</h3>
+              <p class="project-description">
+                A multi-branch pharmaceutical inventory management application built in Java Swing. Enables pharmacy
+                staff to track medicine stock across distinct branches, aggregate totals, and monitor low-stock
+                thresholds.
+              </p>
+
+              <ul class="project-features">
+                <li>Multi-branch stock tracking (Location 1 & Location 2)</li>
+                <li>Automated low-stock threshold detection to avoid medicine shortages</li>
+                <li>Clean OOP architecture using interface abstraction and class inheritance</li>
+                <li>Interactive Java Swing GUI dialogs for adding, editing, and deleting items</li>
+              </ul>
+
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Java Swing GUI</span>
+                <span class="tech-tag">OOP Principles</span>
+                <span class="tech-tag">HashMaps</span>
+                <span class="tech-tag">Collections</span>
+              </div>
+
+              <div class="project-actions">
+                <button class="btn btn-primary" data-modal-target="project-pharmacy">
+                  <i class="fa-solid fa-circle-info"></i> View Architecture Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 5. Certificates & Trainings Section -->
+    <section class="certificates" id="certificates">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-solid fa-award"></i> Verified Credentials</span>
+          <h2 class="section-title">Certificates & Trainings</h2>
+          <p class="section-subtitle">Authentic seminars, conferences, and training programs attended.</p>
+        </div>
+
+        <div class="certs-grid">
+
+          <!-- Cert 1: AWS Community Day -->
+          <article class="cert-card">
+            <div class="cert-thumbnail-wrap" data-modal-target="cert-aws" title="Click to view full certificate">
+              <img src="AWS Certificate.png" alt="AWS Community Day Philippines 2026 Certificate" loading="lazy">
+              <div class="cert-thumbnail-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-header">
+              <span class="cert-issuer-badge"><i class="fa-brands fa-aws"></i> AWS Community</span>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Participation</span>
+            </div>
+
+            <h3 class="cert-title">AWS Community Day Philippines 2026</h3>
+
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> August 22, 2026</span>
+              <span><i class="fa-solid fa-location-dot"></i> AWS Office, BGC, Taguig</span>
+              <span><i class="fa-solid fa-lightbulb"></i> Theme: "Build, Break, Repeat"</span>
+            </div>
+
+            <button class="btn btn-outline" data-modal-target="cert-aws" style="width: 100%;">
+              <i class="fa-solid fa-eye"></i> View Credential Details
+            </button>
+          </article>
+
+          <!-- Cert 2: Modern Work Conference Manila -->
+          <article class="cert-card">
+            <div class="cert-thumbnail-wrap" data-modal-target="cert-modern" title="Click to view full certificate">
+              <img src="Modern Work Certificate.png" alt="Modern Work Conference Manila Certificate" loading="lazy">
+              <div class="cert-thumbnail-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-header">
+              <span class="cert-issuer-badge"><i class="fa-solid fa-brain"></i> AI Community Days</span>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Participation</span>
+            </div>
+
+            <h3 class="cert-title">Modern Work Conference Manila</h3>
+
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> 2 Dec 2025 – 1 June 2026</span>
+              <span><i class="fa-solid fa-fingerprint"></i> ID: AICD-C-2026-7282FD7F</span>
+              <span><i class="fa-solid fa-earth-americas"></i> Manila, Philippines (In-Person)</span>
+            </div>
+
+            <button class="btn btn-outline" data-modal-target="cert-modern" style="width: 100%;">
+              <i class="fa-solid fa-eye"></i> View Credential Details
+            </button>
+          </article>
+
+          <!-- Cert 3: Palo Alto Networks -->
+          <article class="cert-card">
+            <div class="cert-thumbnail-wrap" data-modal-target="cert-paloalto" title="Click to view full certificate">
+              <img src="PALOALTO Certificate.png" alt="Palo Alto Networks Certificate" loading="lazy">
+              <div class="cert-thumbnail-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-header">
+              <span class="cert-issuer-badge"><i class="fa-solid fa-shield-halved"></i> Palo Alto Networks</span>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Completion</span>
+            </div>
+
+            <h3 class="cert-title">Redefining Network Security for the Frontier AI Era</h3>
+
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> August 20, 2026</span>
+              <span><i class="fa-solid fa-user-tie"></i> Signatory: Nikesh Arora (CEO)</span>
+              <span><i class="fa-solid fa-lock"></i> Topic: Network Security & AI Defense</span>
+            </div>
+
+            <button class="btn btn-outline" data-modal-target="cert-paloalto" style="width: 100%;">
+              <i class="fa-solid fa-eye"></i> View Credential Details
+            </button>
+          </article>
+
+          <!-- Cert 4: SAS Global Certification -->
+          <article class="cert-card">
+            <div class="cert-thumbnail-wrap" data-modal-target="cert-sas" title="Click to view full certificate">
+              <img src="SAS Certificate.jpg" alt="SAS Global Certification Certificate" loading="lazy">
+              <div class="cert-thumbnail-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-header">
+              <span class="cert-issuer-badge"><i class="fa-solid fa-chart-line"></i> SAS Global</span>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Participation</span>
+            </div>
+
+            <h3 class="cert-title">Skills Fest: AI Foundations and Real World Impact</h3>
+
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> August 13, 2026</span>
+              <span><i class="fa-solid fa-fingerprint"></i> Verification No: LWWSKF2</span>
+              <span><i class="fa-solid fa-robot"></i> Topic: AI Foundations & Analytics</span>
+            </div>
+
+            <button class="btn btn-outline" data-modal-target="cert-sas" style="width: 100%;">
+              <i class="fa-solid fa-eye"></i> View Credential Details
+            </button>
+          </article>
+
+          <!-- Cert 5: Snowflake World Tour -->
+          <article class="cert-card">
+            <div class="cert-thumbnail-wrap" data-modal-target="cert-snowflake" title="Click to view full certificate">
+              <img src="Snowflake Certificate.png" alt="Snowflake World Tour Certificate" loading="lazy">
+              <div class="cert-thumbnail-overlay">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> View Certificate
+              </div>
+            </div>
+
+            <div class="cert-header">
+              <span class="cert-issuer-badge"><i class="fa-solid fa-snowflake"></i> Snowflake</span>
+              <span class="cert-status"><i class="fa-solid fa-circle-check"></i> Attendance</span>
+            </div>
+
+            <h3 class="cert-title">Snowflake World Tour Virtual</h3>
+
+            <div class="cert-meta">
+              <span><i class="fa-regular fa-calendar"></i> 29 Sep – 3 Oct 2026</span>
+              <span><i class="fa-solid fa-cloud"></i> Cloud Data Warehousing</span>
+              <span><i class="fa-solid fa-globe"></i> Global Virtual Conference</span>
+            </div>
+
+            <button class="btn btn-outline" data-modal-target="cert-snowflake" style="width: 100%;">
+              <i class="fa-solid fa-eye"></i> View Credential Details
+            </button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Interests & Personal Individuality Section (FIXED BALANCED LAYOUT) -->
+    <section class="interests" id="interests">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-solid fa-gamepad"></i> Beyond Code</span>
+          <h2 class="section-title">Interests & Individuality</h2>
+          <p class="section-subtitle">How gaming, fantasy literature, and patience shape my approach to problem solving.
+          </p>
+        </div>
+
+        <div class="interests-section-wrap">
+
+          <!-- Balanced Top Overview Card -->
+          <div class="interests-intro-box">
+            <div class="interests-narrative">
+              <h3>The Gamer & Reader's Perspective</h3>
+              <p>
+                During my free time, I enjoy reading fantasy stories (Japanese Manga, Korean Manhwa, and Chinese Manhua)
+                as well as playing single-player video games.
+              </p>
+              <p>
+                In games like <em>The Legend of Zelda</em> and RPGs where you level up and progress at your own pace,
+                overcoming hurdles requires patience and learning patterns. I apply that same patience when
+                troubleshooting code and solving technical issues.
+              </p>
+            </div>
+
+            <div class="hobby-highlight-box">
+              <h4><i class="fa-solid fa-compass" style="color: var(--primary);"></i> Growth Mindset</h4>
+              <p>
+                "Taking things at your own pace, learning through trial and error, and having the patience to see things
+                through to the end."
+              </p>
+            </div>
+          </div>
+
+          <!-- Full Width Shelf 1: Favorite Video Games -->
+          <div class="media-shelf">
+            <div class="media-shelf-header">
+              <h4><i class="fa-solid fa-gamepad" style="color: var(--primary);"></i> Favorite Video Games</h4>
+              <span class="media-shelf-hint">&larr; Scroll horizontally to view all &rarr;</span>
+            </div>
+
+            <div class="media-scroll-row">
+              <div class="media-card">
+                <img src="totk.jpg" alt="Zelda: Tears of the Kingdom" loading="lazy">
+                <div class="media-card-label">Zelda: TOTK</div>
+              </div>
+              <div class="media-card">
+                <img src="botw.jpg" alt="Zelda: Breath of the Wild" loading="lazy">
+                <div class="media-card-label">Zelda: BOTW</div>
+              </div>
+              <div class="media-card">
+                <img src="ror2.jpg" alt="Risk of Rain 2" loading="lazy">
+                <div class="media-card-label">Risk of Rain 2</div>
+              </div>
+              <div class="media-card">
+                <img src="hollow.jpg" alt="Hollow Knight" loading="lazy">
+                <div class="media-card-label">Hollow Knight</div>
+              </div>
+              <div class="media-card">
+                <img src="ori.jpg" alt="Ori and the Blind Forest" loading="lazy">
+                <div class="media-card-label">Ori</div>
+              </div>
+              <div class="media-card">
+                <img src="terraria.jpg" alt="Terraria" loading="lazy">
+                <div class="media-card-label">Terraria</div>
+              </div>
+              <div class="media-card">
+                <img src="minecraft.jpg" alt="Minecraft" loading="lazy">
+                <div class="media-card-label">Minecraft</div>
+              </div>
+              <div class="media-card">
+                <img src="pokemon.jpg" alt="Pokemon" loading="lazy">
+                <div class="media-card-label">Pokemon</div>
+              </div>
+              <div class="media-card">
+                <img src="hat.jpg" alt="A Hat in Time" loading="lazy">
+                <div class="media-card-label">A Hat in Time</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full Width Shelf 2: Favorite Manga & Manhwa -->
+          <div class="media-shelf">
+            <div class="media-shelf-header">
+              <h4><i class="fa-solid fa-book-open" style="color: var(--secondary);"></i> Favorite Manga, Manhwa & Manhua
+              </h4>
+              <span class="media-shelf-hint">&larr; Scroll horizontally to view all &rarr;</span>
+            </div>
+
+            <div class="media-scroll-row">
+              <div class="media-card">
+                <img src="solo.jpg" alt="Solo Leveling" loading="lazy">
+                <div class="media-card-label">Solo Leveling</div>
+              </div>
+              <div class="media-card">
+                <img src="overgeared.jpg" alt="Overgeared" loading="lazy">
+                <div class="media-card-label">Overgeared</div>
+              </div>
+              <div class="media-card">
+                <img src="nano.jpg" alt="Nano Machine" loading="lazy">
+                <div class="media-card-label">Nano Machine</div>
+              </div>
+              <div class="media-card">
+                <img src="slime.jpg" alt="That Time I Got Reincarnated as a Slime" loading="lazy">
+                <div class="media-card-label">Slime Isekai</div>
+              </div>
+              <div class="media-card">
+                <img src="cleric.jpg" alt="The Great Cleric" loading="lazy">
+                <div class="media-card-label">The Great Cleric</div>
+              </div>
+              <div class="media-card">
+                <img src="dragon.jpg" alt="Dragon Tale" loading="lazy">
+                <div class="media-card-label">Dragon Legend</div>
+              </div>
+              <div class="media-card">
+                <img src="martial.jpg" alt="Martial Peak" loading="lazy">
+                <div class="media-card-label">Martial Peak</div>
+              </div>
+              <div class="media-card">
+                <img src="apocalypse.jpg" alt="Apocalypse" loading="lazy">
+                <div class="media-card-label">Apocalypse</div>
+              </div>
+              <div class="media-card">
+                <img src="tale.jpg" alt="Tales of Demons and Gods" loading="lazy">
+                <div class="media-card-label">Tales of Demons</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Contact Information Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge"><i class="fa-regular fa-envelope"></i> Communication</span>
+          <h2 class="section-title">Contact Information</h2>
+          <p class="section-subtitle">Feel free to reach out for academic inquiries or web development coursework.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Details Panel -->
+          <div class="contact-info-panel">
+
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email Address</h4>
+                <a href="mailto:jaredgatdula@gmail.com">jaredgatdula@gmail.com</a>
+                <div>
+                  <button type="button" class="copy-btn" id="copy-email-btn" title="Copy email address">
+                    <i class="fa-regular fa-copy"></i> Copy Email
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Caloocan City / Metro Manila, Philippines</p>
+              </div>
+            </div>
+
+            <div class="contact-card-item">
+              <div class="contact-icon-wrapper">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Academic Institution</h4>
+                <p>Manila Central University (MCU)</p>
+                <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.2rem;">College of Information
+                  Technology</div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-panel">
+            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1.25rem; color: var(--text-main);">
+              Send a Message
+            </h3>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Your Full Name *</label>
+                  <input type="text" id="contact-name" name="name" class="form-control" placeholder="e.g. Jane Doe"
+                    required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email">Email Address *</label>
+                  <input type="email" id="contact-email" name="email" class="form-control"
+                    placeholder="jane@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject *</label>
+                <input type="text" id="contact-subject" name="subject" class="form-control"
+                  placeholder="Message Subject" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Your Message *</label>
+                <textarea id="contact-message" name="message" class="form-control" rows="4"
+                  placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="align-self: flex-start; padding: 0.85rem 1.8rem;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       Footer
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="nav-logo" style="margin-bottom: 0.75rem;">
+            <span class="nav-logo-badge">JG</span>
+            <span>Jared Kristian M. Gatdula</span>
+          </div>
+          <p>
+            BS Information Technology student at Manila Central University.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Technical Skills</a></li>
+            <li><a href="#projects">Projects & Activities</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jared Kristian M. Gatdula. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Interactive Project & Credential Detail Modal
+       ========================================================================= -->
+  <div class="modal-overlay" id="info-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Details</h3>
+        <button class="modal-close-btn" id="modal-close" aria-label="Close details modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Content injected dynamically via js/main.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Accessible Toast Feedback Notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-message">Notification message</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top" title="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
